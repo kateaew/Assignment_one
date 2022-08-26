@@ -4,7 +4,7 @@
 * [Introduction](#introduction)
 * [Technologies](#technologies)
 * [Files](#Files)
-* [The Programme](#The Programme)
+* [Programme](#Programme)
 * [Issues](#Issues)
 * [Licence](#licence)
 
@@ -19,7 +19,7 @@ Spyder (Python 3.8)
 ## Files
 in.txt - A txt file with csv data in it, each value being the equivilent to a pixel.
 
-## The Programme
+## Programme
 The programme for the user to run is the model.py, supplemented by agentframework.py.
 This is the final programme, showing the agents animating and moving around by means of a .GIF.
 The environment is plotted from the in.txt file, the agents are then created randomly.
