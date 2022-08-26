@@ -21,9 +21,13 @@ in.txt - A txt file with csv data in it, each value being the equivilent to a pi
 
 ## Programme
 The programme for the user to run is the model.py, supplemented by agentframework.py.
+
 This is the final programme, showing the agents animating and moving around by means of a .GIF.
+
 The environment is plotted from the in.txt file, the agents are then created randomly.
-The agents move around the environment created in a random fashion - 'eating' the parts it comes into contact too.
+
+The agents move around the environment created in a random fashion - 'eating' the parts it comes into contact to.
+
 The agents then share parts they've eaten with a neighbour and a calculation is written out as a csv file at the end of the script to show how much has been stored by each agent.
 
 ## Issues
