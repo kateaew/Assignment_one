@@ -33,5 +33,7 @@ The agents then share parts they've eaten with a neighbour and a calculation is 
 ## Issues
 The programmer had issues with getting the animation process running as is in the lecturers example code.
 
+However, this has been overcome by being able to write the process out to a .GIF instead of using matplotlib.animation.
+
 ## Licence
 Licence for this project code is a MIT licence. See LICENCE for more details.
