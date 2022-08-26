@@ -16,6 +16,8 @@ num_of_agents = 100
 num_of_iterations = 10
 neighbourhood = 20
 random_seed = 0 
+
+# This is the save location of the .GIF which is produced from running this code.
 image_dir = 'C:/Users/katie/Documents/University_of_Leeds/YEAR_3/Programming/final1'
 
 agents = []
@@ -88,6 +90,7 @@ for row in environment:
     writer.writerow(row)
 f2.close()
 print("Environment written out")
+
 # Total amount stored by all agents
 # This is a calculation to show how much has been stored or eaten by each agent
 # It's then written out to a CSV file
@@ -104,4 +107,5 @@ with open(file, "a") as f3:
     f3.flush  
 f3.close
 print("Total stored written out")
+
 print("Process completed. Thank you for running this programme.")
